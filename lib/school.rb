@@ -20,7 +20,7 @@ class School
 
   def sort
     roster.each do |grade, name|
-      puts "#{grade}:"
+      puts "#{grade}-"
       name.sort!
       puts "#{name}"
     end
