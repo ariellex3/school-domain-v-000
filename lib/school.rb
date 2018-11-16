@@ -23,6 +23,7 @@ class School
       puts "#{grade}:"
       name.sort!
       puts "#{name}"
+    end
   end
 
 end
