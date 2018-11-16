@@ -19,7 +19,10 @@ class School
   end
 
   def sort
-    roster.sort_by { |name,grade| name }
+    roster.each do |grade, name|
+      puts "#{grade}:"
+      name.sort!
+      puts "#{name}"
   end
 
 end
